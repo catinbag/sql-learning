@@ -17,6 +17,13 @@ INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, c
 VALUES('1000000005', 'The Toy Store', '4545 53rd Street', 'Chicago', 'IL', '54545', 'USA', 'Kim Howard');
 ```
 
+```sql
+INSERT INTO CustNew(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact, cust_email)
+VALUES('2000000001', 'Village Toys new', '200 Maple Lane new', 'Detroit', 'MI', '14444', 'USA', 'John Smith', 'sales@villagetoys.com');
+INSERT INTO CustNew(cust_id, cust_name, cust_address, cust_city, cust_state, cust_zip, cust_country, cust_contact)
+VALUES('2000000002', 'Kids Place', '333 South Lake Drive', 'Columbus', 'OH', '43333', 'USA', 'Michelle Green');
+```
+
 ### Populate Vendors table
 
 ```sql
